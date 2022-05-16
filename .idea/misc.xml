@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/drawable/grad.xml" value="0.141" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/drawable/ic_login.xml" value="0.1" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/activity_application.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_csan.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_exam_results.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_faculties.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_logout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_radio_engineering_and_electronics.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_reg_exam.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_registration_applicant_a.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/fragment_registration_for_exams.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/layout/header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/menu/application_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/menu/application_menu_for_applicant.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/menu/application_menu_for_super_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/menu/authorization_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/menu/faculties_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pryalkin/AndroidStudioProjects/applicationForStudents/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.141" />
+        <entry key="..\:/Users/pryalkin/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/application_for_applicant"
+    app:startDestination="@id/infoFragment">
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.Kaftanchokova.applicationforstudents.application.info.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_infoFragment_to_facultiesFragment"
+            app:destination="@id/computerSystemsAndNetworksFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_computerSystemsAndNetworksFragment"
+            app:destination="@id/computerSystemsAndNetworksFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_registrationApplicantAFragment"
+            app:destination="@id/registrationApplicantAFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_registrationForExamsFragment"
+            app:destination="@id/registrationForExamsFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_logoutFragment2"
+            app:destination="@id/logoutFragment" />
+        <action
+            android:id="@+id/action_infoFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/computerSystemsAndNetworksFragment"
+        android:name="com.Kaftanchokova.applicationforstudents.application.faculties.сomputerSystemsAndNetworks.ComputerSystemsAndNetworksFragment"
+        android:label="fragment_computer_systems_and_networks"
+        tools:layout="@layout/fragment_computer_systems_and_networks" >
+        <action
+            android:id="@+id/action_computerSystemsAndNetworksFragment_to_infoFragment2"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/computerDesignFragment"
+        android:name="com.Kaftanchokova.applicationforstudents.application.faculties.ComputerDesignFragment"
+        android:label="fragment_computer_design"
+        tools:layout="@layout/fragment_computer_design" />
+    <fragment
+        android:id="@+id/informationTechnologyAndManagementFragment"
+        android:name="com.Kaftanchokova.applicationforstudents.application.faculties.InformationTechnologyAndManagementFragment"
+        android:label="fragment_information_technology_and_management"
+        tools:layout="@layout/fragment_information_technology_and_management" />
+    <fragment
+        android:id="@+id/radioEngineeringAndElectronicsFragment"
+        android:name="com.Kaftanchokova.applicationforstudents.application.faculties.RadioEngineeringAndElectronicsFragment"
+        android:label="fragment_radio_engineering_and_electronics"
+        tools:layout="@layout/fragment_radio_engineering_and_electronics" />
+    <fragment
+        android:id="@+id/registrationForExamsFragment"
+        android:name="com.Kaftanchokova.applicationforstudents.application.registration.forApplicant.exam.RegistrationForExamsFragment"
+        android:label="fragment_registration_for_exams"
+        tools:layout="@layout/fragment_registration_for_exams" >
+        <action
+            android:id="@+id/action_registrationForExamsFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.Kaftanchokova.applicationforstudents.application.personalArea.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" >
+        <action
+            android:id="@+id/action_logoutFragment2_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.Kaftanchokova.applicationforstudents.application.personalArea.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+</navigation>

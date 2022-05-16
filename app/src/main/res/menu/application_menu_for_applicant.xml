@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Basic information">
+        <menu>
+            <item android:title="Info"
+                android:id="@+id/infoFragment"
+                android:icon="@drawable/ic_info" />
+        </menu>
+    </item>
+    <item android:title="Information for users">
+        <menu>
+            <item
+                android:title="Faculties"
+                android:id="@+id/computerSystemsAndNetworksFragment"
+                android:icon="@drawable/ic_fact_check" />
+            <item
+                android:title="Register for exams"
+                android:id="@+id/registrationForExamsFragment"
+                android:icon="@drawable/ic_registration" />
+        </menu>
+    </item>
+    <item android:title="Personal Area">
+        <menu>
+            <item
+                android:title="Go to profile"
+                android:id="@+id/profileFragment"
+                android:icon="@drawable/ic_login" />
+            <item
+                android:title="Logout"
+                android:id="@+id/logoutFragment"
+                android:icon="@drawable/ic_logout" />
+        </menu>
+    </item>
+</menu>

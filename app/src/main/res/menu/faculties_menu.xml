@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/computerSystemsAndNetworksFragment"
+        android:title="CSaN"
+        android:icon="@drawable/ic_education"/>
+    <item
+        android:id="@+id/computerDesignFragment"
+        android:title="CD"
+        android:icon="@drawable/ic_education"/>
+    <item
+        android:id="@+id/informationTechnologyAndManagementFragment"
+        android:title="ITaM"
+        android:icon="@drawable/ic_education"/>
+    <item
+        android:id="@+id/radioEngineeringAndElectronicsFragment"
+        android:title="REaE"
+        android:icon="@drawable/ic_education"/>
+</menu>
